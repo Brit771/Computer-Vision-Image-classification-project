@@ -26,7 +26,7 @@ I used a fully connected 1D CNN model with an embedding layer and a dropout betw
 In the FC layers I used the Relu activation function and in the last layer I used the sigmoid  activation function for the classification.
 
 | Model  | number of epochs | batch size | Loss function | Optimizer | evaluation metric |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |------------- |
 | 1 | 12 | 32 | binary_crossentropy | adam | Accuracy | 
 | 2 | 11 | 20 | binary_crossentropy | adam | Accuracy |
 | 3 | 10 | 32 | binary_crossentropy | adam | Accuracy |
